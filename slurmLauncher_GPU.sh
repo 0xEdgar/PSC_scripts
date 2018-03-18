@@ -10,4 +10,5 @@
 #SBATCH --mail-user=edgarxi
 
 # echo commands to stdout
-set -x
+echo "$@"
+"$@"
